@@ -1,10 +1,11 @@
 class Soundcrest < Formula
   desc "Live waveform of whatever your Mac is playing"
   homepage "https://github.com/carsonfischl/soundcrest"
-  url "https://github.com/carsonfischl/soundcrest/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "efe6c1ed4e5ce2d04b46a35c3c068dea238f32f8b91369bcc55f0ea7f9bbfca2"
+  url "https://github.com/carsonfischl/soundcrest/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "990887d26ab54764bc7db21a99bc9dee5509cd9bc6b753c53cb23a212fd74348"
   license "MIT"
 
+  depends_on "tmux"
   depends_on macos: :sonoma
 
   uses_from_macos "swift" => :build
