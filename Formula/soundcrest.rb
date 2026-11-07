@@ -1,8 +1,8 @@
 class Soundcrest < Formula
   desc "Live waveform of whatever your computer is playing"
   homepage "https://github.com/carsonfischl/soundcrest"
-  url "https://github.com/carsonfischl/soundcrest/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "f3eb97d0cbbc930a323f4528d10b51d59e49653b0af793cab3cd27b3dcbb7763"
+  url "https://github.com/carsonfischl/soundcrest/archive/refs/tags/v0.4.2.tar.gz"
+  sha256 "4ca2f05cbe5ba046ea2839cc5647e02a36b8623b4912383773b7261b95c8dff5"
   license "MIT"
 
   depends_on "tmux"
